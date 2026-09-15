@@ -1,1 +1,185 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAKHTAL EDU</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f7fb;
+      color: #172033;
+    }
+
+    header {
+      background: #123c69;
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 25px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #123c69, #2878b5);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      background: #f5b942;
+      color: #172033;
+      padding: 13px 24px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 45px 7%;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 25px;
+      color: #123c69;
+    }
+
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .course {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .course h3 {
+      color: #123c69;
+      margin-bottom: 12px;
+    }
+
+    .course p {
+      line-height: 1.6;
+      color: #526174;
+    }
+
+    footer {
+      background: #123c69;
+      color: white;
+      text-align: center;
+      padding: 22px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>MAKHTAL EDU</h1>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Learn Today. Succeed Tomorrow.</h2>
+    <p>
+      Welcome to MAKHTAL EDU, an online learning platform for school students,
+      university students, and professionals.
+    </p>
+    <a class="button" href="#courses">Explore Courses</a>
+  </section>
+
+  <section class="section" id="courses">
+    <h2>Our Courses</h2>
+
+    <div class="courses">
+      <div class="course">
+        <h3>Research Skills</h3>
+        <p>Learn research methods, academic writing, data collection, and analysis.</p>
+      </div>
+
+      <div class="course">
+        <h3>Proposal Writing</h3>
+        <p>Develop strong research proposals, project ideas, and professional documents.</p>
+      </div>
+
+      <div class="course">
+        <h3>English Lessons</h3>
+        <p>Improve your grammar, vocabulary, speaking, writing, and communication skills.</p>
+      </div>
+
+      <div class="course">
+        <h3>Exam Preparation</h3>
+        <p>Prepare effectively for school, university, and professional examinations.</p>
+      </div>
+
+      <div class="course">
+        <h3>Freshman Courses</h3>
+        <p>Build a strong foundation in essential university freshman subjects.</p>
+      </div>
+
+      <div class="course">
+        <h3>Professional Development</h3>
+        <p>Develop practical skills for employment, research, and career growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About MAKHTAL EDU</h2>
+    <p>
+      MAKHTAL EDU aims to make quality education accessible, practical,
+      affordable, and useful for lifelong learning.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 MAKHTAL EDU. All rights reserved.</p>
+  </footer>
+</body>
+</html>
